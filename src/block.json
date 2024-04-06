@@ -1,0 +1,78 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "smark/text-slicer",
+  "version": "0.1.0",
+  "title": "Text Slicer",
+  "category": "text",
+  "icon": "smiley",
+  "description": "A simple WordPress block that applies a sliced effect to text.",
+  "supports": {
+    "html": false,
+    "align": true,
+    "color": {
+      "background": true,
+      "text": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": false
+    }
+  },
+  "attributes": {
+    "style": {
+      "type": "object",
+      "default": {
+        "color": {
+          "background": "#F9F9F9",
+          "text": "#D61912"
+        }
+      }
+    },
+    "align": {
+      "type": "string",
+      "default": "none"
+    },
+    "textinput": {
+      "type": "string",
+      "default": "Sliced Turkey"
+    },
+    "textalign": {
+      "type": "string",
+      "default": "center"
+    },
+    "boxwidth": {
+      "type": "number",
+      "default": 43
+    },
+    "fontsize": {
+      "type": "number",
+      "default": 6
+    }
+  },
+  "styles": [
+    {
+      "name": "rounded",
+      "label": "Rounded"
+    },
+    {
+      "name": "squared",
+      "label": "Squared",
+      "isDefault": true
+    }
+  ],
+  "example": {
+    "attributes": {
+      "input": "Sliced Bananas",
+      "size": 8
+    },
+    "style": {
+      "padding": "1em"
+    }
+  },
+  "textdomain": "smark",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "script": "file:./script.js"
+}
