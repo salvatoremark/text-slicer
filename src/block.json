@@ -6,7 +6,7 @@
   "title": "Text Slicer",
   "category": "text",
   "icon": "smiley",
-  "description": "A simple WordPress block that applies a sliced effect to text.",
+  "description": "Applies a slice effect to text.",
   "supports": {
     "html": false,
     "align": true,
@@ -24,8 +24,8 @@
       "type": "object",
       "default": {
         "color": {
-          "background": "#F9F9F9",
-          "text": "#D61912"
+          "background": "#000000",
+          "text": "#C23A2B"
         }
       }
     },
@@ -35,7 +35,9 @@
     },
     "textinput": {
       "type": "string",
-      "default": "Sliced Turkey"
+      "default": "Sliced Onion",
+      "source": "text",
+      "selector": "div div"
     },
     "textalign": {
       "type": "string",
@@ -43,11 +45,11 @@
     },
     "boxwidth": {
       "type": "number",
-      "default": 43
+      "default": 52
     },
     "fontsize": {
       "type": "number",
-      "default": 6
+      "default": 7
     }
   },
   "styles": [
@@ -63,11 +65,8 @@
   ],
   "example": {
     "attributes": {
-      "input": "Sliced Bananas",
-      "size": 8
-    },
-    "style": {
-      "padding": "1em"
+      "textinput": "Sliced Onion",
+      "fontsize": 7
     }
   },
   "textdomain": "smark",

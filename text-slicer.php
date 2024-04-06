@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Text Slicer
- * Description:       A simple WordPress block that applies a sliced effect to text.
+ * Description:       Applies a slice effect to text.
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Version:           0.1.0

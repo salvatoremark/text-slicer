@@ -10,13 +10,12 @@
 
 .wrapper {
   white-space: nowrap;
-  display: grid;
+  max-width: none;
 
-  min-height: 10vh;
   font-family: "Oswald", sans-serif;
-
+  display: grid;
+  min-height: 10vh;
   font-weight: 700;
-
   color: var(--text-color);
 }
 

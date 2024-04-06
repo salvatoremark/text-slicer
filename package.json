@@ -1,7 +1,7 @@
 {
   "name": "text-slicer",
   "version": "0.1.0",
-  "description": "A simple WordPress block that applies a sliced effect to text.",
+  "description": "Applies a slice effect to text.",
   "author": "Mark Salvatore",
   "license": "GPL-2.0-or-later",
   "main": "build/index.js",
