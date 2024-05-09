@@ -1,7 +1,7 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "smark/text-slicer",
+  "name": "msalv/text-slicer",
   "version": "0.1.0",
   "title": "Text Slicer",
   "category": "text",
@@ -69,7 +69,7 @@
       "fontsize": 7
     }
   },
-  "textdomain": "smark",
+  "textdomain": "text-slicer",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
