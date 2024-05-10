@@ -33,21 +33,21 @@
       "type": "string",
       "default": "none"
     },
-    "textinput": {
+    "textInput": {
       "type": "string",
       "default": "Sliced Onion",
       "source": "text",
       "selector": "div div"
     },
-    "textalign": {
+    "textAlign": {
       "type": "string",
       "default": "center"
     },
-    "boxwidth": {
+    "boxWidth": {
       "type": "number",
       "default": 52
     },
-    "fontsize": {
+    "fontSize": {
       "type": "number",
       "default": 7
     }
@@ -65,8 +65,8 @@
   ],
   "example": {
     "attributes": {
-      "textinput": "Sliced Onion",
-      "fontsize": 7
+      "textInput": "Sliced Onion",
+      "fontSize": 7
     }
   },
   "textdomain": "text-slicer",
